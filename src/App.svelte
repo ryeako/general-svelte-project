@@ -2,7 +2,17 @@
 	import SideNav from './layout/SideNav.svelte';
 	import Router from 'svelte-spa-router';
 	import routes from './routes'
+	import { moveHistory } from "./store/stores";
+	import { onDestroy } from 'svelte';
+
+	let moveHistoryContent = [];
+    const subMoveHistory = moveHistory.subscribe(moves => moveHistoryContent = moves);
+	onDestroy(subMoveHistory);
 </script>
+
+<svelte:head>
+	<title>Silly App to test Svelte</title>
+</svelte:head>
 
 <nav class="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col justify-between bg-gray-300 dark:bg-gray-900 dark:text-white shadow-lg z-10">
 	<SideNav />
@@ -11,6 +21,12 @@
 <div class="fixed top-0 left-16 h-screen pl-5 pt-5 z-0 w-full bg-gray-100 dark:bg-gray-700 dark:text-white">
 	<Router {routes} />
 </div>
+
+{#each moveHistoryContent as history}
+<div>
+	{history}
+</div>
+{/each}
 
 <style global lang="postcss">
 	@tailwind base;

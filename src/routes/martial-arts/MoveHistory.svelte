@@ -1,18 +1,28 @@
 <script>
     import Icon from "svelte-icons-pack/Icon.svelte";
     import FiDelete from "svelte-icons-pack/fi/FiDelete"; 
+    import { moveHistory } from "./../../store/stores";
+    import { onDestroy } from "svelte";
 
-    let moveHistory = [];
+    let moveHistoryContent = [];
+    const subMoveHistory = moveHistory.subscribe(moves => moveHistoryContent = moves);
 
     export function addHistory(move) {
-        moveHistory = [...moveHistory, move];
-        if (moveHistory.length > 10) moveHistory.shift();
+        moveHistory.update(() => {
+            const newHistory = [...moveHistory, move];
+            if (moveHistory.length > 10) moveHistory.shift();
+            return newHistory;
+        });
     }
 
     const handleHistorRemoveClick = (index) => {
-        moveHistory.splice(index, 1);
-        moveHistory = [...moveHistory];
+        moveHistory.update(() => {
+            const newHistory = moveHistory.splice(index, 1);
+            return newHistory;
+        });
     }
+
+    onDestroy(subMoveHistory);
 </script>
 
 {#each moveHistory as history, i}
