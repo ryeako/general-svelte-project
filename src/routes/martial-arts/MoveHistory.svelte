@@ -8,24 +8,22 @@
     const subMoveHistory = moveHistory.subscribe(moves => moveHistoryContent = moves);
 
     export function addHistory(move) {
-        moveHistory.update(() => {
-            const newHistory = [...moveHistory, move];
-            if (moveHistory.length > 10) moveHistory.shift();
-            return newHistory;
+        moveHistory.update((m) => {
+            if (m.length > 9) m.shift();
+            return [...m, move]
         });
+        
     }
 
     const handleHistorRemoveClick = (index) => {
-        moveHistory.update(() => {
-            const newHistory = moveHistory.splice(index, 1);
-            return newHistory;
-        });
+        moveHistoryContent.splice(index, 1)
+        moveHistory.set(moveHistoryContent);
     }
 
     onDestroy(subMoveHistory);
 </script>
 
-{#each moveHistory as history, i}
+{#each moveHistoryContent as history, i}
 <div class="flex items-stretch border-2 border-black first:border-r-2 first:border-black rounded-xl mb-3">
     <div class="flex justify-between w-3/4">
         <p class="flex items-center px-2 py-2">{ history }</p>
