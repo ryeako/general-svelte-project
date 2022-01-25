@@ -1,0 +1,490 @@
+[
+    {
+        "type": "A",
+        "average": 18000,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "1d6",
+                "multiplier": 1000,
+                "currency": "cp"
+            },
+            {
+                "type": "money",
+                "percent": 0.30,
+                "dieType": "1d6",
+                "multiplier": 1000,
+                "currency": "sp"
+            },
+            {
+                "type": "money",
+                "percent": 0.20,
+                "dieType": "1d4",
+                "multiplier": 1000,
+                "currency": "ep"
+            },
+            {
+                "type": "money",
+                "percent": 0.35,
+                "dieType": "2d6",
+                "multiplier": 1000,
+                "currency": "gp"
+            },
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "1d2",
+                "multiplier": 1000,
+                "currency": "pp"
+            },
+            {
+                "type": "gem",
+                "percent": 0.50,
+                "dieType": "6d6",
+                "currency": "gem"
+            },
+            {
+                "type": "jewelry",
+                "percent": 0.50,
+                "dieType": "6d6",
+                "currency": "jewelry"
+            },
+            {
+                "type": "magic",
+                "percent": 0.30,
+                "items": 3,
+                "potion": 0,
+                "scroll": 0
+            }
+        ]
+    },
+    {
+        "type": "B",
+        "average": 2000,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.5,
+                "dieType": "1d8",
+                "multiplier": 1000,
+                "currency": "cp"
+            },
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "1d6",
+                "multiplier": 1000,
+                "currency": "sp"
+            },
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "1d4",
+                "multiplier": 1000,
+                "currency": "ep"
+            },
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "1d3",
+                "multiplier": 1000,
+                "currency": "gp"
+            },
+            {
+                "type": "gem",
+                "percent": 0.25,
+                "dieType": "1d6",
+                "currency": "gem"
+            },
+            {
+                "type": "jewelry",
+                "percent": 0.25,
+                "dieType": "1d6",
+                "currency": "jewelry"
+            },
+            {
+                "type": "magic",
+                "percent": 0.10,
+                "items": 1,
+                "potion": 0,
+                "scroll": 0
+            }
+        ]
+    },
+    {
+        "type": "C",
+        "average": 1000,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.2,
+                "dieType": "1d12",
+                "multiplier": 1000,
+                "currency": "cp"
+            },
+            {
+                "type": "money",
+                "percent": 0.3,
+                "dieType": "1d4",
+                "multiplier": 1000,
+                "currency": "sp"
+            },
+            {
+                "type": "money",
+                "percent": 0.10,
+                "dieType": "1d4",
+                "multiplier": 1000,
+                "currency": "ep"
+            },
+            {
+                "type": "gem",
+                "percent": 0.25,
+                "dieType": "1d4",
+                "currency": "gem"
+            },
+            {
+                "type": "jewelry",
+                "percent": 0.25,
+                "dieType": "1d4",
+                "currency": "jewelry"
+            },
+            {
+                "type": "magic",
+                "percent": 0.10,
+                "items": 1,
+                "potion": 0,
+                "scroll": 0
+            }
+        ]
+    },
+    {
+        "type": "D",
+        "average": 3900,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.1,
+                "dieType": "1d8",
+                "multiplier": 1000,
+                "currency": "cp"
+            },
+            {
+                "type": "money",
+                "percent": 0.15,
+                "dieType": "1d12",
+                "multiplier": 1000,
+                "currency": "sp"
+            },
+            {
+                "type": "money",
+                "percent": 0.60,
+                "dieType": "1d6",
+                "multiplier": 1000,
+                "currency": "gp"
+            },
+            {
+                "type": "gem",
+                "percent": 0.3,
+                "dieType": "1d8",
+                "currency": "gem"
+            },
+            {
+                "type": "jewelry",
+                "percent": 0.3,
+                "dieType": "1d8",
+                "currency": "jewelry"
+            },
+            {
+                "type": "magic",
+                "percent": 0.10,
+                "items": 1,
+                "potion": 0,
+                "scroll": 0
+            }
+        ]
+    },
+    {
+        "type": "E",
+        "average": 2300,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.05,
+                "dieType": "1d10",
+                "multiplier": 1000,
+                "currency": "cp"
+            },
+            {
+                "type": "money",
+                "percent": 0.30,
+                "dieType": "1d12",
+                "multiplier": 1000,
+                "currency": "sp"
+            },
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "1d4",
+                "multiplier": 1000,
+                "currency": "ep"
+            },
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "1d8",
+                "multiplier": 1000,
+                "currency": "gp"
+            },
+            {
+                "type": "gem",
+                "percent": 0.1,
+                "dieType": "1d10",
+                "currency": "gem"
+            },
+            {
+                "type": "jewelry",
+                "percent": 0.1,
+                "dieType": "1d10",
+                "currency": "jewelry"
+            },
+            {
+                "type": "magic",
+                "percent": 0.10,
+                "items": 1,
+                "potion": 0,
+                "scroll": 0
+            }
+        ]
+    },
+    {
+        "type": "F",
+        "average": 7700,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.10,
+                "dieType": "1d10",
+                "multiplier": 1000,
+                "currency": "sp"
+            },
+            {
+                "type": "money",
+                "percent": 0.2,
+                "dieType": "1d8",
+                "multiplier": 1000,
+                "currency": "ep"
+            },
+            {
+                "type": "money",
+                "percent": 0.45,
+                "dieType": "1d12",
+                "multiplier": 1000,
+                "currency": "gp"
+            },
+            {
+                "type": "money",
+                "percent": 0.3,
+                "dieType": "1d3",
+                "multiplier": 1000,
+                "currency": "pp"
+            },
+            {
+                "type": "gem",
+                "percent": 0.2,
+                "dieType": "2d10",
+                "currency": "gem"
+            },
+            {
+                "type": "jewelry",
+                "percent": 0.1,
+                "dieType": "1d12",
+                "currency": "jewelry"
+            },
+            {
+                "type": "magic",
+                "percent": 0.30,
+                "items": 1,
+                "potion": 0,
+                "scroll": 0
+            }
+        ]
+    },
+    {
+        "type": "G",
+        "average": 23000,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.5,
+                "dieType": "1d4",
+                "multiplier": 1000,
+                "currency": "gp"
+            },
+            {
+                "type": "money",
+                "percent": 0.5,
+                "dieType": "1d6",
+                "multiplier": 1000,
+                "currency": "pp"
+            },
+            {
+                "type": "gem",
+                "percent": 0.25,
+                "dieType": "3d6",
+                "currency": "gem"
+            },
+            {
+                "type": "jewelry",
+                "percent": 0.25,
+                "dieType": "1d10",
+                "currency": "jewelry"
+            },
+            {
+                "type": "magic",
+                "percent": 0.35,
+                "items": 1,
+                "potion": 0,
+                "scroll": 0
+            }
+        ]
+    },
+    {
+        "type": "H",
+        "average": 23000,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "3d8",
+                "multiplier": 1000,
+                "currency": "cp"
+            },
+            {
+                "type": "money",
+                "percent": 0.50,
+                "dieType": "1d100",
+                "multiplier": 1000,
+                "currency": "sp"
+            },
+            {
+                "type": "money",
+                "percent": 0.5,
+                "dieType": "1d4",
+                "multiplier": 10000,
+                "currency": "gp"
+            },
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "5d4",
+                "multiplier": 1000,
+                "currency": "pp"
+            },
+            {
+                "type": "gem",
+                "percent": 0.5,
+                "dieType": "1d100",
+                "currency": "gem"
+            },
+            {
+                "type": "jewelry",
+                "percent": 0.5,
+                "dieType": "1d4",
+                "multiplier": 10,
+                "currency": "jewelry"
+            },
+            {
+                "type": "magic",
+                "percent": 0.15,
+                "items": 1,
+                "potion": 0,
+                "scroll": 0
+            }
+        ]
+    },
+    {
+        "type": "I",
+        "average": 11000,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.3,
+                "dieType": "1d8",
+                "multiplier": 1000,
+                "currency": "pp"
+            },
+            {
+                "type": "gem",
+                "percent": 0.5,
+                "dieType": "2d6",
+                "currency": "gem"
+            },
+            {
+                "type": "jewelry",
+                "percent": 0.5,
+                "dieType": "2d6",
+                "currency": "jewelry"
+            },
+            {
+                "type": "magic",
+                "percent": 0.15,
+                "items": 1,
+                "potion": 0,
+                "scroll": 0
+            }
+        ]
+    },
+    {
+        "type": "J",
+        "average": 25,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.25,
+                "dieType": "1d4",
+                "multiplier": 1000,
+                "currency": "cp"
+            },
+            {
+                "type": "money",
+                "percent": 0.1,
+                "dieType": "1d3",
+                "multiplier": 1000,
+                "currency": "sp"
+            }
+        ]
+    },
+    {
+        "type": "K",
+        "average": 180,
+        "treasures": [
+            {
+                "type": "money",
+                "percent": 0.3,
+                "dieType": "1d6",
+                "multiplier": 1000,
+                "currency": "sp"
+            },
+            {
+                "type": "money",
+                "percent": 0.1,
+                "dieType": "1d2",
+                "multiplier": 1000,
+                "currency": "ep"
+            }
+        ]
+    },
+    {
+        "type": "L",
+        "average": 240,
+        "treasures": [
+            {
+                "type": "gem",
+                "percent": 0.5,
+                "dieType": "1d4",
+                "currency": "gem"
+            }
+        ]
+    }
+]

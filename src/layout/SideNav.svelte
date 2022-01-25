@@ -6,10 +6,12 @@
     import FaSolidFistRaised from "svelte-icons-pack/fa/FaSolidFistRaised";
     import SiAboutDotMe from "svelte-icons-pack/si/SiAboutDotMe";
     import RiWeatherFlashlightLine from "svelte-icons-pack/ri/RiWeatherFlashlightLine";
+    import RiMapTreasureMapFill from "svelte-icons-pack/ri/RiMapTreasureMapFill"; 
 
     const icons = [
         { icon: FaSolidFistRaised, text: "Home", route: '/' },
-        { icon: SiAboutDotMe, text:"About", route: '/about' }
+        { icon: SiAboutDotMe, text:"About", route: '/about' },
+        { icon: RiMapTreasureMapFill, text: "OSE", route: '/ose/treasure'}
     ];
 
     let mode = '';
